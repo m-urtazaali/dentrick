@@ -1,0 +1,97 @@
+<section class="footer">
+
+        <div class="box-container">
+
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">➔ home</a>
+                <a href="#">➔ about us</a>
+                <a href="#">➔ products</a>
+                <a href="#">➔ order</a>
+                <a href="#">➔ contact us</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">➔ +92 3101242766</a>
+                <a href="#">➔ +92 456151881</a>
+                <a href="#">➔ salmannasirsiddiqui@gmail.com</a>
+                <a style="text-transform: lowercase;" href="#">➔ Www.rayanacaledars.com</a>
+                <a href="#">➔ North Nazimabad, Karachi</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">➔ facebook</a>
+                <a href="#">➔ twitter</a>
+                <a href="#">➔ instagram</a>
+                <a href="#">➔ linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> copyright @ 2022 by <span>Salman Siddiqui</span> </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+sylesheet
+
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    padding:.5rem 0;
+    font-size: 2.5rem;
+    color:var(--black);
+    cursor: pointer;
+}
+.footer .box-container .box h3:hover{
+    color: black;
+    border-radius: 2rem;
+  
+    box-sizing: border-box;
+}
+
+.footer .box-container .box a{
+    display: block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-color);
+}
+
+.footer .box-container .box a:hover{
+    color:var(--green);
+    text-decoration: underline;
+}
+
+.footer .credit{
+    text-align: center;
+   
+    border-top: .1rem solid rgba(0,0,0,.1);
+    font-size: 2rem;
+    color:var(--black);
+    padding:.5rem;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    background-color: black;
+}
+
+.footer .credit span{
+    color:var(--green);
+
+}
